@@ -4,6 +4,7 @@ import math
 
 
 # not sure if this is correct.
+# FIXED FRAME -- should be left multiplies
 if __name__ == '__main__':
 	# declare values for x, y, and z rotations
 	theta = math.pi / 2
