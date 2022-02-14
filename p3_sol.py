@@ -7,6 +7,8 @@ from p2_sol import translate_z
 import math
 import numpy as np
 
+
+# first four sub problems should have the same solution, when checking answers.
 def H_1(v0):
 	"""
 	Transormation from from problem 3.
