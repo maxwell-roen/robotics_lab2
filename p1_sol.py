@@ -20,7 +20,7 @@ def calculate_fixed_frame_roll_pitch_yaw_rotation(starting_pt, psi, theta, phi):
 	# do two left multiplications to calculate the total rotation with a fixed frame
 	H = np.matmul(Rz, (np.matmul(Ry, Rx)))
 
-	# then calculate and the result
+	# then calculate the result
 	updated_pt = np.matmul(H, starting_pt)
 
 	return updated_pt
